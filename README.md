@@ -1,0 +1,2 @@
+# automatic
+Bash script linux 
