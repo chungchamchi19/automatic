@@ -1,6 +1,6 @@
 #!/bin/bash
 pathRepoTest="editor"
-echo "Enter: \n 1 to test atom\n 2 to test section\n 3 to test addon"
+echo -e "Enter: \n 1 to test atom\n 2 to test section\n 3 to test addon"
 read repo
 while (($repo != 1 && $repo != 2 && $repo != 3))
 do 
