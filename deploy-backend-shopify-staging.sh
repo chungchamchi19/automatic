@@ -10,6 +10,7 @@ echo "Prepare to deploy staging-$staging....."
 cd ../backend-shopify && \
 git checkout staging/es-shopify-staging-$staging && \
 npm update es-core && \
+yarn build && \
 git add . && \
 git commit -m "test" && \
 git push origin staging/es-shopify-staging-$staging -f 
