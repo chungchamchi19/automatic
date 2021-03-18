@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Enter staging number:"
 read staging
-echo "What branch you want to deploy?(no to current branch)"
+echo "What branch you want to deploy?(or enter 'no' to deploy current branch)"
 read branch
 while (($staging != 1 && $staging != 2 && $staging != 3))
 do 
