@@ -14,7 +14,7 @@ cd ../backend && \
 git add . && \
 git stash && \
 git fetch origin staging/es-staging-$staging && \
-git co staging/es-staging-$staging && \
+git checkout staging/es-staging-$staging && \
 rm -rf ./client/dist && \
 cp -r ../editor/dist ./client && \
 git add . && \
