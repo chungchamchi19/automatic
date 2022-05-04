@@ -15,7 +15,7 @@ else
 fi
 echo "Prepare to test es-core at $pathRepoTest....."
 cd ../es-core && \
-yarn build:script && \
+yarn build:uploadScripts && \
 yarn build && \
 cd ../$pathRepoTest && \
 rm -f ./node_modules/es-core/dist/index.js && \
